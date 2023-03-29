@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+/* Here Import Raleway font-family */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+/* Here Import Open Sans font-family */
+.container {
+  width: 100%;
+  /* margin: 0 auto; */
+  /* font-size: 10px; */
+  max-width: 1250px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 2px 5px #b2b1b1;
+}
+.logo h1 {
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1em;
+  color: #0b2341;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.minulist-item {
+  display: flex;
+}
+.minulist-item li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+.minulist-item li a {
+  color: #0b2341;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.minulist-item:first-child {
+  color: red;
+}
