@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
@@ -45,6 +46,7 @@ header {
   justify-content: space-between;
 }
 .logo h1 {
+  padding: 1px;
   cursor: pointer;
   font-size: 2.6em;
   line-height: 1em;
@@ -117,13 +119,13 @@ header {
 }
 .hero-container p {
   color: #fff;
+  max-width: 70%;
   font-size: 1.7em;
   margin: 15px 0px;
   line-height: 1.2em;
   text-align: justify;
   word-spacing: 0.01em;
   letter-spacing: 0.02em;
-  max-width: 800px;
   font-family: "Open Sans", sans-serif;
 }
 .hero-btn {
@@ -131,4 +133,9 @@ header {
   font-size: 1.5em;
   margin-top: 10px;
   background-color: #ed502e;
+  transition: all 0.3s ease-in;
 }
+.hero-btn:hover {
+  background-color: #b92f10b3;
+}
+/* End of Hero Section */
