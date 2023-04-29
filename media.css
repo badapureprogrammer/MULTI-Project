@@ -168,3 +168,36 @@
   }
 }
 /* End of About Section */
+
+@media screen and (width < 992px) {
+  .service-container h2 {
+    font-size: 3.3em;
+    margin-bottom: 10px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .service-card {
+    width: 49%;
+    padding: 30px;
+  }
+}
+@media screen and (width < 786px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-card {
+    width: 90%;
+    padding: 30px;
+  }
+}
+@media screen and (width < 576px) {
+  .service-container h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+  }
+}
