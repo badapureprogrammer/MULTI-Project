@@ -188,6 +188,7 @@ header {
 }
 .about-text-container h2 {
   margin-top: 5px;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 .about-content-wrapper {
@@ -246,3 +247,133 @@ header {
   color: #fff;
   background-color: #ed502e;
 }
+.about-image-section {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+}
+.about-section-left-image {
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  min-height: 70vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./images/about_left_banner.jpg");
+}
+.about-section-left-image::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(8, 7, 7, 0.5);
+}
+.btn_ripple {
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #fff;
+  display: grid;
+  cursor: pointer;
+  font-size: 2em;
+  border-radius: 50%;
+  place-items: center;
+  animation-name: ripple;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  background-color: #ed502e;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+  }
+  80% {
+    border: none;
+    box-shadow: 0 0 0 20px #fff4, 0 0 0 40px #fff4;
+  }
+  100% {
+    border: 2px dashed #fff;
+    box-shadow: 0 0 0 20px #fff1, 0 0 0 40px #fff1;
+  }
+}
+
+.about-section-right-content {
+  width: 100%;
+  padding: 70px 38px;
+  background-color: #f6f9fd;
+}
+.about-section-right-content h2 {
+  color: #123a6d;
+  font-size: 3.6em;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+  word-spacing: 0.01em;
+  letter-spacing: 0.02em;
+  font-family: "Raleway", sans-serif;
+}
+.about-section-right-content p {
+  color: #9c9d9d;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+}
+.about-accordion-container .content-box {
+  position: relative;
+  margin: 15px 0px;
+}
+.about-accordion-container .content-box .label {
+  position: relative;
+  padding: 10px;
+  color: #0b2341;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  word-spacing: 0.01em;
+  letter-spacing: 0.02em;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.about-accordion-container .content-box .label::before {
+  top: 50%;
+  content: "+";
+  right: 20px;
+  font-size: 1.4em;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.about-accordion-container .content-box.active .label::before {
+  content: "-";
+}
+.about-accordion-container .content-box .content {
+  height: 0;
+  overflow-y: auto;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: #fff;
+}
+.about-accordion-container .content-box .content p {
+  font-size: 1.4em;
+  letter-spacing: 0.01em;
+  line-height: 1.4em;
+  color: #737373;
+}
+.about-accordion-container .content-box.active .content {
+  padding: 15px;
+  height: fit-content;
+  text-align: justify;
+}
+/* End of About Section */
+

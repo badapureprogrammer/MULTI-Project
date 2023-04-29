@@ -81,15 +81,6 @@
   .hero-content h2 {
     font-size: 3.9em;
   }
-  .hero-container p {
-    font-size: 1.4em;
-    max-width: 90%;
-  }
-  .hero-btn {
-    font-size: 1.3em;
-    margin-top: 5px;
-    padding: 10px 28px;
-  }
 }
 
 @media screen and (width < 526px) {
@@ -113,31 +104,21 @@
     font-size: 3.3em;
     margin-bottom: 10px;
   }
+  .before-head-text::after {
+    width: 100px;
+  }
+  .about-image-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (width < 768px) {
-  .before-head-text {
-    font-size: 1em;
-  }
-  .before-head-text::after {
-    width: 100px;
-    height: 1px;
-    margin-left: 2px;
-  }
-  .about-text-container h2 {
-    font-size: 2.8em;
-    margin-bottom: 5px;
-  }
-  .about-left-child p {
-    font-size: 1.4em;
-    line-height: 1.5em;
+  .about-text-container {
+    padding: 40px 0px 40px;
   }
   .about-left-child {
     width: 100%;
-  }
-  .about-left-child-list li {
-    margin-top: 10px;
-    font-size: 1.4em;
   }
   .about-content-wrapper {
     display: flex;
@@ -149,49 +130,41 @@
     width: 100%;
     margin-left: 0px;
   }
-  .about-right-child p {
-    font-size: 1.4em;
-    line-height: 1.5em;
-  }
-  .about-right-content-btn {
-    font-size: 1.4em;
-    padding: 6px 20px;
-  }
 }
 
 @media screen and (width < 576px) {
-  .about-text-container {
-    padding: 30px 0px 30px;
-  }
-  .before-head-text {
-    font-size: 1em;
-  }
-  .before-head-text::after {
-    width: 90px;
-    height: 0.5px;
-  }
   .about-text-container h2 {
-    font-size: 2.4em;
+    font-size: 3em;
     margin-bottom: 0px;
   }
   .about-left-child p {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .about-left-child-list li {
     margin-top: 5px;
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .about-left-child-list li i {
     font-size: 1em;
     margin-right: 3px;
   }
   .about-right-child p {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .about-right-content-btn {
-    font-size: 1.3em;
+    font-size: 1.4em;
     padding: 6px 20px;
+  }
+  .btn_ripple {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+  }
+  .about-section-right-content {
+    padding: 50px 20px;
+  }
+  .about-section-right-content h2 {
+    font-size: 2.6em;
   }
 }
 /* End of About Section */
-
