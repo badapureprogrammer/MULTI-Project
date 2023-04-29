@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
   box-sizing: border-box;
 }
 
@@ -30,6 +29,16 @@ body {
   padding: 12px 36px;
   letter-spacing: 0.02em;
   font-family: "Raleway", sans-serif;
+}
+
+.padding-y {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padding-x {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .before-head-text {
@@ -188,11 +197,11 @@ header {
 .about-left-child {
   padding: 20px 0px;
   width: 600px;
-  border: 2px solid red;
 }
 .about-left-child p {
   font-size: 1.6em;
   line-height: 1.5em;
+  text-align: justify;
   word-spacing: 0.01em;
   letter-spacing: 0.02em;
   font-family: "Open Sans", sans-serif;
@@ -200,22 +209,23 @@ header {
 .about-left-child-list {
   margin-top: 10px;
 }
-.about-left-child-list li{
+.about-left-child-list li {
   display: flex;
   margin-top: 15px;
   font-size: 1.5em;
   align-items: center;
   font-family: "Open Sans", sans-serif;
 }
-.about-left-child-list li i{
+.about-left-child-list li i {
   font-size: 1.2em;
   color: #ed502e;
   margin-right: 5px;
 }
 .about-right-child {
-  padding: 20px 0px;
   width: 600px;
-  border: 2px solid black;
+  padding: 20px 0px;
+  text-align: justify;
+  margin-left: 30px;
 }
 .about-right-child p {
   font-size: 1.6em;
@@ -224,7 +234,7 @@ header {
   letter-spacing: 0.02em;
   font-family: "Open Sans", sans-serif;
 }
-.about-right-content-btn{
+.about-right-content-btn {
   color: #ed502e;
   margin-top: 20px;
   padding: 10px 38px;
@@ -232,7 +242,7 @@ header {
   border: 2px solid #ed502e;
   transition: all 0.3s ease-in-out;
 }
-.about-right-content-btn:hover{
+.about-right-content-btn:hover {
   color: #fff;
   background-color: #ed502e;
 }
