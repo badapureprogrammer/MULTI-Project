@@ -28,7 +28,7 @@
     flex-direction: column;
     transform: translateX(100%);
     transition: all 0.6s ease;
-    background-color: #1a1e24e6;
+    background-color: #122641e6;
   }
   .menulist li {
     width: 100px;
@@ -196,8 +196,37 @@
   }
 }
 @media screen and (width < 576px) {
+  .service-card {
+    width: 100%;
+    padding: 20px;
+  }
   .service-container h2 {
     font-size: 3em;
     margin-bottom: 0px;
+  }
+}
+/* End of Service Section */
+
+@media screen and (width < 992px) {
+  .team-wrapper h2 {
+    font-size: 3.3em;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (width < 768px) {
+}
+@media screen and (width < 640px) {
+  .team-wrapper,
+  .team-member-section {
+    padding-bottom: 0;
+  }
+  .team-wrapper h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+  }
+  .team-member-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
