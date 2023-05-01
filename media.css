@@ -200,12 +200,43 @@
     width: 100%;
     padding: 20px;
   }
+  .service-container {
+    padding-bottom: 0;
+  }
   .service-container h2 {
     font-size: 3em;
     margin-bottom: 0px;
   }
 }
 /* End of Service Section */
+
+@media screen and (width < 768px) {
+  .call-action-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  .call-action-section p {
+    font-size: 1.4em;
+    letter-spacing: 0.02em;
+  }
+  .call-action-section .btn {
+    font-size: 1.4em;
+    margin-top: 15px;
+    padding: 8px 32px;
+  }
+}
+@media screen and (width < 576px) {
+  .call-action-section h3 {
+    font-size: 2.2em;
+  }
+  .call-action-section p {
+    font-size: 1.2em;
+  }
+  .call-action-section .btn {
+    font-size: 1.2em;
+  }
+}
+/* End of Call Banner Section */
 
 @media screen and (width < 992px) {
   .team-wrapper h2 {
@@ -230,3 +261,4 @@
     flex-direction: column;
   }
 }
+/* End of Team Section */
