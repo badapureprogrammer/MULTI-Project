@@ -262,3 +262,53 @@
   }
 }
 /* End of Team Section */
+
+/* @media screen and (width < 1195px) {
+  .contact-right {
+    width: 80%;
+  }
+} */
+@media screen and (width < 992px) {
+  .contact-section-container h2 {
+    font-size: 3.3em;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (width < 827px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-right {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+@media screen and (width < 576px) {
+  .contact-section {
+    padding-bottom: 0;
+  }
+  .name-field {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .name-field,
+  .mail-field {
+    width: 100%;
+  }
+  .name-mail-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .envelope-phone-combo-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-left .contact-phone-box {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+/* End of Contact Section */
