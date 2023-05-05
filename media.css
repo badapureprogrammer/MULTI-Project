@@ -263,11 +263,6 @@
 }
 /* End of Team Section */
 
-/* @media screen and (width < 1195px) {
-  .contact-right {
-    width: 80%;
-  }
-} */
 @media screen and (width < 992px) {
   .contact-section-container h2 {
     font-size: 3.3em;
@@ -310,5 +305,4 @@
     margin-left: 0;
   }
 }
-
 /* End of Contact Section */

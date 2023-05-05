@@ -748,7 +748,6 @@ header {
   outline: 1px solid #ced4da;
   font-family: "Open Sans", sans-serif;
 }
-
 .subject-field {
   margin-top: 20px;
 }
@@ -760,4 +759,34 @@ header {
   color: #fff;
   margin-top: 10px;
   background-color: #ed502e;
+}
+/* End of Contact Section */
+
+.footer-container {
+  width: 100%;
+  min-height: 70vh;
+  background-color: #071527;
+}
+.multi-footer-banner {
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px dashed white;
+  background-color: #05101e;
+  border-top: 4px solid #ed502e;
+}
+.footer-top-section h5 {
+  font-size: 2.4em;
+  margin: 0 0 20px 0;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-top-section p {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+  padding-bottom: 30px;
+  font-family: "Raleway", sans-serif;
 }
