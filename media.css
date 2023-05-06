@@ -307,14 +307,32 @@
 }
 /* End of Contact Section */
 
-
-@media screen and (width < 1100px) {
-  .footer-top-section{
-    display: flex;
+@media screen and (width < 1024px) {
+  .footer-top-section {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-bottom: 1px solid #0f2f57;
   }
-  .newsletter-footer{
-    width: 50%;
-    margin: 60px auto;
+  .newsletter-footer {
+    margin: 0px auto;
   }
 }
+@media screen and (width < 768px) {
+  .footer-top-section {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 220px 1fr;
+    border-bottom: 1px solid #0f2f57;
+  }
+  .Useful-service-joint-links-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* End of Footer Section */
 
