@@ -306,3 +306,15 @@
   }
 }
 /* End of Contact Section */
+
+
+@media screen and (width < 1100px) {
+  .footer-top-section{
+    display: flex;
+  }
+  .newsletter-footer{
+    width: 50%;
+    margin: 60px auto;
+  }
+}
+
