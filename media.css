@@ -81,6 +81,9 @@
   .hero-content h2 {
     font-size: 3.9em;
   }
+  .hero-container p {
+    font-size: 1.4em;
+  }
 }
 
 @media screen and (width < 526px) {
@@ -88,7 +91,6 @@
     font-size: 3.5em;
   }
   .hero-container p {
-    font-size: 1.2em;
     max-width: 100%;
   }
   .hero-btn {
